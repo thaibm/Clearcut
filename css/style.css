@@ -47,8 +47,13 @@ body {
         body div.body-background div.content header nav div.container-fluid {
           padding: 0;
           border-bottom: solid 1px #a7c353; }
-          body div.body-background div.content header nav div.container-fluid div.navbar-header {
-            padding-top: 30px; }
+          body div.body-background div.content header nav div.container-fluid div.navbar-header img {
+            padding: 30px 0 0 0px; }
+            @media (max-width: 768px) {
+              body div.body-background div.content header nav div.container-fluid div.navbar-header img {
+                padding: 30px 0 10px 5px; } }
+          body div.body-background div.content header nav div.container-fluid div.navbar-header button {
+            margin: 30px 5px 0 0; }
           body div.body-background div.content header nav div.container-fluid ul li a {
             padding: 0 15px;
             height: inherit;
@@ -220,15 +225,13 @@ body {
           width: 225px; } }
       @media (min-width: 768px) and (max-width: 992px) {
         body footer div.col-3 {
-          max-width: 320px;
-          margin-right: 20px;
+          margin-right: 0px;
+          padding: 0 10px;
           height: 380px; } }
-      @media (min-width: 468px) and (max-width: 768px) {
+      @media (max-width: 768px) {
         body footer div.col-3 {
-          max-width: 80%; } }
-      @media (max-width: 468px) {
-        body footer div.col-3 {
-          width: 100%; } }
+          padding: 0 5px;
+          margin: 0; } }
       body footer div.col-3:last-of-type {
         margin: 0; }
       body footer div.col-3 div.footer-title {
