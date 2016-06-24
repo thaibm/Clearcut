@@ -1,0 +1,371 @@
+$mainColor : #a7c353;
+
+*{
+	font-family: Georgia;
+}
+body{
+	@media (min-width: 992px){
+		max-width: 960px;
+	}
+	@media (min-width: 768px) and (max-width: 992px){
+		max-width: 750px;
+	}
+	@media (max-width: 768px){
+		max-width: 100%;
+	}
+	margin: auto;
+	background-color: #313131;
+	overflow: auto;
+	div.body-background{
+		@media (min-width: 992px){
+			max-width: 960px;
+		}
+		@media (min-width: 768px) and (max-width: 992px){
+			max-width: 750px;
+		}
+		@media (max-width: 768px){
+			max-width: 100%;
+		}
+		background-color: #fff;
+		border-top: solid 5px $mainColor;
+		overflow: auto;
+		div.content{
+			max-width: 920px;
+			@media (min-width: 992px){
+				max-width: 920px;
+			}
+			@media (min-width: 768px) and (max-width: 992px){
+				max-width: 710px;
+			}
+			@media (max-width: 768px){
+				max-width: 90%;
+			}
+			margin: auto;
+			header{
+				nav{
+					margin: 0;
+					padding: 0;
+					background-color: #fff;
+					border: 0;
+					div.container-fluid{
+						padding: 0;
+						border-bottom: solid 1px $mainColor;
+						div.navbar-header{
+							padding-top: 30px;
+						}
+						ul{
+							
+							li{
+								a{
+									padding: 0 15px;
+									height: inherit;
+									@media (min-width: 768px){
+										line-height: 96px;
+									}
+									@media (max-width: 768px){
+										line-height: 50px;
+									}
+									color: #979797;
+								}
+								&:hover{
+									background-color: $mainColor;
+									a{
+										color: #fff;
+									}
+								}
+							}
+						}
+					}
+				}
+				div.slogan{
+					text-align: center;
+					font-style: italic;
+					p{
+						margin: 0;
+						padding: 38px;
+						font-size: 22px;
+						color: #666666;
+					}
+				}
+				div#myCarousel{
+					border-bottom: solid 1px #e2e2e2;
+					@media (max-width: 992px){
+						.slide-title, .slide-text{
+							display: none;
+						}
+					}
+					.slide-title{
+						width: 350px;
+						height: 40px;
+						line-height: 40px;
+						background-color: $mainColor;
+						color: #fff;
+						position: absolute;
+						top: 60%;
+						left: 50%;
+						font-size: 22px;
+						text-align: center;
+					}
+					.slide-text{
+						width: 350px;
+						height: 70px;
+						background-color: #fff;
+						color: #999;
+						position: absolute;
+						top: 75%;
+						left: 50%;
+						text-align: left;
+						padding: 5px 15px;
+					}
+					.carousel-control{
+						background-image: none;
+						position: absolute;
+						top: 40%;
+						opacity: 0.5;
+						&:hover, &:active{
+							opacity: 1;
+						}
+					}
+					
+					div{
+						ol.carousel-indicators{
+							position: relative;
+							left: 0;
+							top: 25px;
+							margin: 0;
+							width: 100%;
+							li{
+								width: 16px;
+								height: 16px;
+								border: solid 3px $mainColor;
+							}
+							.active{
+								background-color: $mainColor;
+							}
+						}
+					}
+				}
+			}
+			section{
+				margin: 40px 0;
+				overflow: auto;
+				article{
+					
+					padding: 0;
+					@media (min-width: 992px){
+						width: 280px;
+						margin-right: 40px;
+					}
+					@media (min-width: 768px) and (max-width: 992px){
+						max-width: 320px;
+						margin-right: 20px;
+					}
+					@media (min-width: 468px) and (max-width: 768px){
+						max-width: 80%;
+					}
+					@media (max-width: 468px){
+						width: 100%;
+					}
+					&:last-of-type{
+						margin: 0;
+					}
+					div.article-header{
+						margin-bottom: 30px;
+						a{
+							font-size: 22px;
+							color: #666666;
+						}
+					}
+					div.article-img-aboutus{
+						margin-bottom: 22px;
+						img.img-thumbnail{
+							border-radius: 0;
+						}
+					}
+					div.article-content-col-1{
+						margin-bottom: 20px;
+						p{
+							color: #999999;
+						}
+					}
+					div.article-link{
+						text-align: right;
+						a{
+							color: $mainColor;
+						}
+					}
+					div.article-content-col-2{
+						@media (min-width: 468px) and (max-width: 768px){
+							max-width: 100%;
+						}
+						@media (max-width: 468px){
+							width: 100%;
+						}
+						img{
+							float: left;
+							margin-right: 18px; 
+						}
+						div.article-content-col-2-text{
+							display: inline-block;
+							
+							@media (min-width: 992px){
+								width: 198px;
+							}
+							@media (min-width: 768px) and (max-width: 992px){
+								max-width: 70%;
+							}
+							@media (min-width: 468px) and (max-width: 768px){
+								max-width: 70%;
+							}
+							@media (max-width: 468px){
+								width: 70%;
+							}
+							h4{
+								margin-top: 0;
+								font-size: 15px;
+								color: #666666;
+							}
+							p{
+								color: #868686;
+							}
+						}
+
+					}
+					div.article-content-col-3{
+						h4{
+							color: #666666;
+							font-size: 16px;
+							span.name{
+								font-weight: 500;
+								margin-left: 12px;
+							}
+							span.note{
+								font-weight: 100;
+							}
+						}
+						p{
+							margin-bottom: 0;
+							color: #868686;
+						}
+					}
+				}
+			}
+		}
+	}
+	footer{
+		@media (max-width: 768px){
+			padding: 0 15px 0 15px;
+		}
+		overflow: auto;
+		margin-bottom: 20px;
+		a{
+			color: $mainColor;
+			&:hover{
+				color: #fff;
+			}
+		}
+		div.col-3{
+			@media (min-width: 992px){
+				width: 225px;
+			}
+			@media (min-width: 768px) and (max-width: 992px){
+				max-width: 320px;
+				margin-right: 20px;
+			}
+			@media (min-width: 468px) and (max-width: 768px){
+				max-width: 80%;
+			}
+			@media (max-width: 468px){
+				width: 100%;
+			}
+			margin-right: 20px;
+			padding: 0;
+			
+			color: #999999;
+			font-size: 12px;
+			&:last-of-type{
+				margin: 0;
+			}
+			div.footer-title{
+				margin-top: 40px;
+				padding-bottom: 16px;
+				margin-bottom: 20px;
+				border-bottom: 1px solid #383838;
+				color: #fff;
+			}
+			div.footer-company-info{
+				margin-bottom: 20px;
+				h5{
+					font-weight: bold;
+				}
+				p{
+					margin-bottom: 6px;
+				}
+				
+			}
+			div.footer-social{
+				height: 54px;
+				line-height: 54px;
+				border-bottom: 1px solid #383838;
+				i{
+					margin-right: 10px;
+					width: 32px;
+					height: 32px;
+					line-height: 32px;
+					border-radius: 50%;
+					background-color: #383838;
+					text-align: center;
+					display: inline-block;
+					color: #fff;
+				}
+			}
+			div.blog{
+				h5{
+					font-weight: bold;
+				}
+				div.right{
+					text-align: right;
+				}
+			}
+			form{
+				color: #fff;
+				input, textarea{
+					margin-bottom: 10px;
+					background-color: #383838;
+					border: none;
+				}
+				textarea{
+					height: 100px;
+				}
+				input#button{
+					background-color: $mainColor;
+					width: 80px;
+					text-align: center;
+					&:hover{
+						background-color: #c4f13d;
+					}
+				}
+			}
+		}
+
+	}
+	div.copyright{
+		@media (max-width: 768px){
+			padding: 20px 15px 20px 15px;
+		}
+		color: #999999;
+		padding: 20px 0;
+		border-top: 1px solid #383838;
+		overflow: auto;
+		div.left{
+			float: left;
+			display: inline-block;
+			text-align: left;
+		}
+		div.right{
+			float: right;
+			display: inline-block;
+			text-align: right;
+		}
+	}
+}

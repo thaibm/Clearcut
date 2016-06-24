@@ -1,0 +1,288 @@
+* {
+  font-family: Georgia; }
+
+body {
+  margin: auto;
+  background-color: #313131;
+  overflow: auto; }
+  @media (min-width: 992px) {
+    body {
+      max-width: 960px; } }
+  @media (min-width: 768px) and (max-width: 992px) {
+    body {
+      max-width: 750px; } }
+  @media (max-width: 768px) {
+    body {
+      max-width: 100%; } }
+  body div.body-background {
+    background-color: #fff;
+    border-top: solid 5px #a7c353;
+    overflow: auto; }
+    @media (min-width: 992px) {
+      body div.body-background {
+        max-width: 960px; } }
+    @media (min-width: 768px) and (max-width: 992px) {
+      body div.body-background {
+        max-width: 750px; } }
+    @media (max-width: 768px) {
+      body div.body-background {
+        max-width: 100%; } }
+    body div.body-background div.content {
+      max-width: 920px;
+      margin: auto; }
+      @media (min-width: 992px) {
+        body div.body-background div.content {
+          max-width: 920px; } }
+      @media (min-width: 768px) and (max-width: 992px) {
+        body div.body-background div.content {
+          max-width: 710px; } }
+      @media (max-width: 768px) {
+        body div.body-background div.content {
+          max-width: 90%; } }
+      body div.body-background div.content header nav {
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        border: 0; }
+        body div.body-background div.content header nav div.container-fluid {
+          padding: 0;
+          border-bottom: solid 1px #a7c353; }
+          body div.body-background div.content header nav div.container-fluid div.navbar-header {
+            padding-top: 30px; }
+          body div.body-background div.content header nav div.container-fluid ul li a {
+            padding: 0 15px;
+            height: inherit;
+            color: #979797; }
+            @media (min-width: 768px) {
+              body div.body-background div.content header nav div.container-fluid ul li a {
+                line-height: 96px; } }
+            @media (max-width: 768px) {
+              body div.body-background div.content header nav div.container-fluid ul li a {
+                line-height: 50px; } }
+          body div.body-background div.content header nav div.container-fluid ul li:hover {
+            background-color: #a7c353; }
+            body div.body-background div.content header nav div.container-fluid ul li:hover a {
+              color: #fff; }
+      body div.body-background div.content header div.slogan {
+        text-align: center;
+        font-style: italic; }
+        body div.body-background div.content header div.slogan p {
+          margin: 0;
+          padding: 38px;
+          font-size: 22px;
+          color: #666666; }
+      body div.body-background div.content header div#myCarousel {
+        border-bottom: solid 1px #e2e2e2; }
+        @media (max-width: 992px) {
+          body div.body-background div.content header div#myCarousel .slide-title, body div.body-background div.content header div#myCarousel .slide-text {
+            display: none; } }
+        body div.body-background div.content header div#myCarousel .slide-title {
+          width: 350px;
+          height: 40px;
+          line-height: 40px;
+          background-color: #a7c353;
+          color: #fff;
+          position: absolute;
+          top: 60%;
+          left: 50%;
+          font-size: 22px;
+          text-align: center; }
+        body div.body-background div.content header div#myCarousel .slide-text {
+          width: 350px;
+          height: 70px;
+          background-color: #fff;
+          color: #999;
+          position: absolute;
+          top: 75%;
+          left: 50%;
+          text-align: left;
+          padding: 5px 15px; }
+        body div.body-background div.content header div#myCarousel .carousel-control {
+          background-image: none;
+          position: absolute;
+          top: 40%;
+          opacity: 0.5; }
+          body div.body-background div.content header div#myCarousel .carousel-control:hover, body div.body-background div.content header div#myCarousel .carousel-control:active {
+            opacity: 1; }
+        body div.body-background div.content header div#myCarousel div ol.carousel-indicators {
+          position: relative;
+          left: 0;
+          top: 25px;
+          margin: 0;
+          width: 100%; }
+          body div.body-background div.content header div#myCarousel div ol.carousel-indicators li {
+            width: 16px;
+            height: 16px;
+            border: solid 3px #a7c353; }
+          body div.body-background div.content header div#myCarousel div ol.carousel-indicators .active {
+            background-color: #a7c353; }
+      body div.body-background div.content section {
+        margin: 40px 0;
+        overflow: auto; }
+        body div.body-background div.content section article {
+          padding: 0; }
+          @media (min-width: 992px) {
+            body div.body-background div.content section article {
+              width: 280px;
+              margin-right: 40px; } }
+          @media (min-width: 768px) and (max-width: 992px) {
+            body div.body-background div.content section article {
+              max-width: 320px;
+              margin-right: 20px; } }
+          @media (min-width: 468px) and (max-width: 768px) {
+            body div.body-background div.content section article {
+              max-width: 80%; } }
+          @media (max-width: 468px) {
+            body div.body-background div.content section article {
+              width: 100%; } }
+          body div.body-background div.content section article:last-of-type {
+            margin: 0; }
+          body div.body-background div.content section article div.article-header {
+            margin-bottom: 30px; }
+            body div.body-background div.content section article div.article-header a {
+              font-size: 22px;
+              color: #666666; }
+          body div.body-background div.content section article div.article-img-aboutus {
+            margin-bottom: 22px; }
+            body div.body-background div.content section article div.article-img-aboutus img.img-thumbnail {
+              border-radius: 0; }
+          body div.body-background div.content section article div.article-content-col-1 {
+            margin-bottom: 20px; }
+            body div.body-background div.content section article div.article-content-col-1 p {
+              color: #999999; }
+          body div.body-background div.content section article div.article-link {
+            text-align: right; }
+            body div.body-background div.content section article div.article-link a {
+              color: #a7c353; }
+          @media (min-width: 468px) and (max-width: 768px) {
+            body div.body-background div.content section article div.article-content-col-2 {
+              max-width: 100%; } }
+          @media (max-width: 468px) {
+            body div.body-background div.content section article div.article-content-col-2 {
+              width: 100%; } }
+          body div.body-background div.content section article div.article-content-col-2 img {
+            float: left;
+            margin-right: 18px; }
+          body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text {
+            display: inline-block; }
+            @media (min-width: 992px) {
+              body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text {
+                width: 198px; } }
+            @media (min-width: 768px) and (max-width: 992px) {
+              body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text {
+                max-width: 70%; } }
+            @media (min-width: 468px) and (max-width: 768px) {
+              body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text {
+                max-width: 70%; } }
+            @media (max-width: 468px) {
+              body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text {
+                width: 70%; } }
+            body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text h4 {
+              margin-top: 0;
+              font-size: 15px;
+              color: #666666; }
+            body div.body-background div.content section article div.article-content-col-2 div.article-content-col-2-text p {
+              color: #868686; }
+          body div.body-background div.content section article div.article-content-col-3 h4 {
+            color: #666666;
+            font-size: 16px; }
+            body div.body-background div.content section article div.article-content-col-3 h4 span.name {
+              font-weight: 500;
+              margin-left: 12px; }
+            body div.body-background div.content section article div.article-content-col-3 h4 span.note {
+              font-weight: 100; }
+          body div.body-background div.content section article div.article-content-col-3 p {
+            margin-bottom: 0;
+            color: #868686; }
+  body footer {
+    overflow: auto;
+    margin-bottom: 20px; }
+    @media (max-width: 768px) {
+      body footer {
+        padding: 0 15px 0 15px; } }
+    body footer a {
+      color: #a7c353; }
+      body footer a:hover {
+        color: #fff; }
+    body footer div.col-3 {
+      margin-right: 20px;
+      padding: 0;
+      color: #999999;
+      font-size: 12px; }
+      @media (min-width: 992px) {
+        body footer div.col-3 {
+          width: 225px; } }
+      @media (min-width: 768px) and (max-width: 992px) {
+        body footer div.col-3 {
+          max-width: 320px;
+          margin-right: 20px; } }
+      @media (min-width: 468px) and (max-width: 768px) {
+        body footer div.col-3 {
+          max-width: 80%; } }
+      @media (max-width: 468px) {
+        body footer div.col-3 {
+          width: 100%; } }
+      body footer div.col-3:last-of-type {
+        margin: 0; }
+      body footer div.col-3 div.footer-title {
+        margin-top: 40px;
+        padding-bottom: 16px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #383838;
+        color: #fff; }
+      body footer div.col-3 div.footer-company-info {
+        margin-bottom: 20px; }
+        body footer div.col-3 div.footer-company-info h5 {
+          font-weight: bold; }
+        body footer div.col-3 div.footer-company-info p {
+          margin-bottom: 6px; }
+      body footer div.col-3 div.footer-social {
+        height: 54px;
+        line-height: 54px;
+        border-bottom: 1px solid #383838; }
+        body footer div.col-3 div.footer-social i {
+          margin-right: 10px;
+          width: 32px;
+          height: 32px;
+          line-height: 32px;
+          border-radius: 50%;
+          background-color: #383838;
+          text-align: center;
+          display: inline-block;
+          color: #fff; }
+      body footer div.col-3 div.blog h5 {
+        font-weight: bold; }
+      body footer div.col-3 div.blog div.right {
+        text-align: right; }
+      body footer div.col-3 form {
+        color: #fff; }
+        body footer div.col-3 form input, body footer div.col-3 form textarea {
+          margin-bottom: 10px;
+          background-color: #383838;
+          border: none; }
+        body footer div.col-3 form textarea {
+          height: 100px; }
+        body footer div.col-3 form input#button {
+          background-color: #a7c353;
+          width: 80px;
+          text-align: center; }
+          body footer div.col-3 form input#button:hover {
+            background-color: #c4f13d; }
+  body div.copyright {
+    color: #999999;
+    padding: 20px 0;
+    border-top: 1px solid #383838;
+    overflow: auto; }
+    @media (max-width: 768px) {
+      body div.copyright {
+        padding: 20px 15px 20px 15px; } }
+    body div.copyright div.left {
+      float: left;
+      display: inline-block;
+      text-align: left; }
+    body div.copyright div.right {
+      float: right;
+      display: inline-block;
+      text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
