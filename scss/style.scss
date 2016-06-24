@@ -136,7 +136,14 @@ body{
 							opacity: 1;
 						}
 					}
-					
+					.carousel-control.right{
+						position: absolute;
+						right: -2%;
+					}
+					.carousel-control.left{
+						position: absolute;
+						left: -2%;
+					}
 					div{
 						ol.carousel-indicators{
 							position: relative;
@@ -251,7 +258,7 @@ body{
 							color: #666666;
 							font-size: 16px;
 							span.name{
-								font-weight: 500;
+								font-weight: bold;
 								margin-left: 12px;
 							}
 							span.note{
