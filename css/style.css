@@ -72,7 +72,9 @@ body {
           font-size: 22px;
           color: #666666; }
       body div.body-background div.content header div#myCarousel {
-        border-bottom: solid 1px #e2e2e2; }
+        padding-bottom: 76px;
+        border-bottom: solid 1px #e2e2e2;
+        overflow: auto; }
         @media (max-width: 992px) {
           body div.body-background div.content header div#myCarousel .slide-title, body div.body-background div.content header div#myCarousel .slide-text {
             display: none; } }
@@ -111,11 +113,14 @@ body {
           margin: 0;
           width: 100%; }
           body div.body-background div.content header div#myCarousel div ol.carousel-indicators li {
+            padding: 0;
             width: 16px;
             height: 16px;
-            border: solid 3px #a7c353; }
+            background-color: #a7c353;
+            border: solid 1px #a7c353; }
           body div.body-background div.content header div#myCarousel div ol.carousel-indicators .active {
-            background-color: #a7c353; }
+            background-color: #fff;
+            border: solid 3px #a7c353; }
       body div.body-background div.content section {
         margin: 40px 0;
         overflow: auto; }

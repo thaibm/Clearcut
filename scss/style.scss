@@ -88,7 +88,9 @@ body{
 					}
 				}
 				div#myCarousel{
+					padding-bottom: 76px;
 					border-bottom: solid 1px #e2e2e2;
+					overflow: auto;
 					@media (max-width: 992px){
 						.slide-title, .slide-text{
 							display: none;
@@ -133,18 +135,23 @@ body{
 							left: 0;
 							top: 25px;
 							margin: 0;
+
 							width: 100%;
 							li{
+								padding: 0;
 								width: 16px;
 								height: 16px;
-								border: solid 3px $mainColor;
+								background-color: $mainColor;
+								border: solid 1px $mainColor;
 							}
 							.active{
-								background-color: $mainColor;
+								background-color: #fff;
+								border: solid 3px $mainColor;
 							}
 						}
 					}
 				}
+
 			}
 			section{
 				margin: 40px 0;
