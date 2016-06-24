@@ -357,22 +357,29 @@ body{
 
 	}
 	div.copyright{
-		@media (max-width: 768px){
-			padding: 20px 15px 20px 15px;
-		}
+		
 		color: #999999;
 		padding: 20px 0;
 		border-top: 1px solid #383838;
 		overflow: auto;
-		div.left{
-			float: left;
-			display: inline-block;
-			text-align: left;
+		@media(min-width: 768px){
+			div.left{
+				float: left;
+				display: inline-block;
+				text-align: left;
+			}
+			div.right{
+				float: right;
+				display: inline-block;
+				text-align: right;
+			}
 		}
-		div.right{
-			float: right;
-			display: inline-block;
-			text-align: right;
+		@media (max-width: 768px){
+			padding: 20px 15px 20px 15px;
+			div{
+				text-align: center;
+			}
 		}
+		
 	}
 }
