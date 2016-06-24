@@ -111,12 +111,13 @@ body {
           opacity: 0.5; }
           body div.body-background div.content header div#myCarousel .carousel-control:hover, body div.body-background div.content header div#myCarousel .carousel-control:active {
             opacity: 1; }
-        body div.body-background div.content header div#myCarousel .carousel-control.right {
-          position: absolute;
-          right: -2%; }
-        body div.body-background div.content header div#myCarousel .carousel-control.left {
-          position: absolute;
-          left: -2%; }
+        @media (min-width: 768px) {
+          body div.body-background div.content header div#myCarousel .carousel-control.right {
+            position: absolute;
+            right: -2%; }
+          body div.body-background div.content header div#myCarousel .carousel-control.left {
+            position: absolute;
+            left: -2%; } }
         body div.body-background div.content header div#myCarousel div ol.carousel-indicators {
           position: relative;
           left: 0;
