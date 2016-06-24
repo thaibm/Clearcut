@@ -136,6 +136,7 @@ body {
         margin: 40px 0;
         overflow: auto; }
         body div.body-background div.content section article {
+          overflow: auto;
           padding: 0; }
           @media (min-width: 992px) {
             body div.body-background div.content section article {
@@ -143,8 +144,8 @@ body {
               margin-right: 40px; } }
           @media (min-width: 768px) and (max-width: 992px) {
             body div.body-background div.content section article {
-              max-width: 320px;
-              margin-right: 20px; } }
+              padding-right: 20px;
+              height: 450px; } }
           @media (min-width: 468px) and (max-width: 768px) {
             body div.body-background div.content section article {
               max-width: 80%; } }
