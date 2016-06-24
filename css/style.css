@@ -212,6 +212,7 @@ body {
     body footer div.col-3 {
       margin-right: 20px;
       padding: 0;
+      float: left;
       color: #999999;
       font-size: 12px; }
       @media (min-width: 992px) {
@@ -220,7 +221,8 @@ body {
       @media (min-width: 768px) and (max-width: 992px) {
         body footer div.col-3 {
           max-width: 320px;
-          margin-right: 20px; } }
+          margin-right: 20px;
+          height: 380px; } }
       @media (min-width: 468px) and (max-width: 768px) {
         body footer div.col-3 {
           max-width: 80%; } }
